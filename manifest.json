@@ -1,0 +1,11 @@
+{
+    "name": "HisAn",
+    "version": "1.0",
+    "description": "Analyzes your history for insights",
+    "permissions": ["storage", "history"],
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    },
+    "manifest_version": 2
+}
