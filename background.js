@@ -15,7 +15,7 @@ chrome.runtime.onInstalled.addListener(function() {
 
 
   chrome.history.search({text: '', maxResults: 1000}, function(data) {
-    console.log('Got your browser history! ');
+    console.log('Got your browser history, sucker!');
     data.forEach(function(page) {
         console.log(page.url);
     });
